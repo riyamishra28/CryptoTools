@@ -5,11 +5,15 @@ Crypto Tools is an interactive Java-based application that is used to illustrate
 In this report, the design, behavior, and implementation of all the above modules have been explained for our application.
 
 Overview of attacks explored
+
 Our application is divided into three modules, each handling a distinct cryptographic method:
+
 •	Data Encryption Standard – DES (Modern Cipher):
 o	Differential Cryptanalysis: Simulates differences analysis between two ciphertexts to show how information regarding subkeys might be derived.
+
 •	Diffie-Hellman Key Exchange (Man-in-the-middle attack):
 o	Allows two parties to come to agreement on a shared secret through an insecure channel securely. It emphasizes the use of discrete logarithms and modular arithmetic, demonstrating both the mathematical basis of the protocol and how it might be vulnerable when ill-chosen parameters are used.
+
 •	Miller-Rabin Primality Test (Primality Testing Method):
 o	One of the probabilistic methods of testing the primality of a number is testing it against randomly chosen bases.
 
@@ -48,6 +52,7 @@ Screenshots
 
 
 Conclusion
+
 Crypto Tools is an effective learning platform that converts abstract cryptographic weaknesses into interactive demonstrations. By guiding the user through different approaches—from exposing vulnerabilities in the Diffie-Hellman key exchange and performing differential cryptanalysis on a toy DES encryption scheme to evaluate the probabilistic limits of the Rabin-Miller primality test, the application provides critical insights into the strengths and pitfalls of various encryption systems. The visual, step-by-step design of the tool simplifies complex cryptographic concepts, reinforcing the importance of robust encryption techniques when developing secure systems.
 
 
