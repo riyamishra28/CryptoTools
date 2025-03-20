@@ -58,17 +58,10 @@
                     android:layout_marginTop="8dp">
 
                     <RadioButton
-                        android:id="@+id/rbVigenere"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Vigenère Cipher - Kasiski"
-                        android:textColor="#555555" />
-
-                    <RadioButton
                         android:id="@+id/rbRSA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="RSA - Wiener's Attack"
+                        android:text="Diffie-Hellman - MITM Attack"
                         android:textColor="#555555" />
 
                     <RadioButton
@@ -76,6 +69,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Miller-Rabin Primality Test"
+                        android:textColor="#555555" />
+
+                    <RadioButton
+                        android:id="@+id/rbDES"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DES - Differential Cryptanalysis"
                         android:textColor="#555555" />
                 </RadioGroup>
             </LinearLayout>
